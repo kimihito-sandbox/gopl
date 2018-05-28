@@ -1,0 +1,8 @@
+version: '3'
+services:
+  go:
+    build: .
+    command: bash
+    working_dir: /go
+    volumes:
+      - .:/go
